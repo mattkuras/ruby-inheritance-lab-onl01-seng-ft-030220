@@ -7,6 +7,7 @@ class Teacher < User
   def teach 
     KNOWLEDGE[rand(0..7)]
   end
+  
 
   
 end
